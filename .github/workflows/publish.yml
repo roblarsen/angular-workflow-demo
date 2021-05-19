@@ -15,7 +15,7 @@ jobs:
     - name: Install
       run: npm ci
     - name: Build
-      run: ng run build
+      run: npm run build
     - name: Publish to NPM
       run: npm run publish
       
