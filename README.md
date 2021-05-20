@@ -1,6 +1,6 @@
 # AngularWorkflowDemo
 
-[![Test](https://github.com/roblarsen/angular-workflow-demo/actions/workflows/test.yml/badge.svg)](https://github.com/roblarsen/angular-workflow-demo/actions/workflows/test.yml)
+[![Test](https://github.com/roblarsen/angular-workflow-demo/actions/workflows/test.yml/badge.svg)](https://github.com/roblarsen/angular-workflow-demo/actions/workflows/test.yml) [![CodeQL](https://github.com/roblarsen/angular-workflow-demo/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/roblarsen/angular-workflow-demo/actions/workflows/codeql-analysis.yml)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.0.0.
 
