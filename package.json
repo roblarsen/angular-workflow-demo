@@ -1,12 +1,14 @@
 {
   "name": "angular-workflow-demo",
-  "version": "0.0.0",
+  "version": "0.0.3",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test"
+    "test": "ng test",
+    "testci": "ng test --watch=false --browsers=ChromeHeadlessCustom",
+    "publish": "echo 'publishing...'"
   },
   "private": true,
   "dependencies": {
@@ -34,6 +36,7 @@
     "karma-coverage": "~2.0.3",
     "karma-jasmine": "~4.0.0",
     "karma-jasmine-html-reporter": "^1.5.0",
+    "puppeteer": "^9.1.1",
     "typescript": "~4.2.3"
   }
 }
