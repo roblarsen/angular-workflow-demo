@@ -7,6 +7,3 @@ updates:
       interval: weekly
     open-pull-requests-limit: 50
     versioning-strategy: increase
-  - package-ecosystem: "npm"
-    schedule:
-      interval: "weekly"
