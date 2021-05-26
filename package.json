@@ -8,7 +8,8 @@
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "testci": "ng test --watch=false --browsers=ChromeHeadlessCustom",
-    "publish": "echo 'publishing...'"
+    "publish": "echo 'publishing...'",
+    "testcc": "ng test --no-watch --code-coverage --browsers=ChromeHeadlessCustom"
   },
   "private": true,
   "dependencies": {
