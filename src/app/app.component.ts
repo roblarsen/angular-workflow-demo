@@ -11,5 +11,12 @@ export class AppComponent {
     x = 23;
     let x;
     const z = /(.*?)a(?:d*)a(?!(a+)b)\2(.*)/;
+     var count = 0;
+        for (let x of xs)
+                if (p())
+                        ++count;
+        return count;
+if (typeof window !== undefined)
+        console.log("Running in a browser.");
   }
 }
