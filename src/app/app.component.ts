@@ -8,6 +8,12 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'angular-workflow-demo';
   constructor(){
-    x = "this is a string".replace(/i/g,"q");
+    var x = "this is a string".replace(/i/g,"q");
   }
+  function looseJsonParse(obj){
+    return eval("(" + obj + ")");
+}
+console.log(looseJsonParse(
+   "{a:(4-1), b:function(){}, c:new Date()}"
+))
 }
