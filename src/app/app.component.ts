@@ -10,10 +10,10 @@ export class AppComponent {
   constructor(){
     var x = "this is a string".replace(/i/g,"q");
   }
-  function looseJsonParse(obj){
+  let looseJsonParse = (obj)=>{
     return eval("(" + obj + ")");
-}
-console.log(looseJsonParse(
+  }
+  console.log(looseJsonParse(
    "{a:(4-1), b:function(){}, c:new Date()}"
-))
+  ));
 }
