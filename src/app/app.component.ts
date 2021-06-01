@@ -19,4 +19,11 @@ export class AppComponent {
 if (typeof window !== undefined)
         console.log("Running in a browser.");
   }
+  
+  bar(){
+        this.baz(42);
+    }
+    static baz(x){
+        // ...
+    }
 }
